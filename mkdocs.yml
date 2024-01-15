@@ -30,6 +30,7 @@ theme:
     - navigation.tabs
     - navigation.path
     - navigation.top
+    - navigation.footer
   
 copyright: Copyright © 2024 Mokka Studios S.r.l. All rights reserved.
 
@@ -49,5 +50,5 @@ plugins:
       type: timeago
   - git-committers:
       # enabled: !ENV [CI, false]
-      repository: mokkastudios/mokkastudios
+      repository: mokkastudios/mokkastudios-docs
       branch: master
