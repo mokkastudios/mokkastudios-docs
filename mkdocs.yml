@@ -42,6 +42,9 @@ extra:
 
 plugins:
   - git-revision-date-localized:
+      exclude:
+        - blog/archive/*
+        - blog/category/*
       enable_creation_date: true
       type: timeago
   - git-committers:
