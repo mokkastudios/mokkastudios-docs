@@ -4,6 +4,16 @@ repo_name: Go to repository
 
 nav:
   - Home: index.md
+  - Project management:
+    - Project initialization:
+      - project-management/project-initialization/index.md
+      - Linear: project-management/project-initialization/linear.md
+      - Slack: project-management/project-initialization/slack.md
+      - Google Drive: project-management/project-initialization/drive.md
+      - Github: project-management/project-initialization/github.md
+      - Stores: project-management/project-initialization/stores.md
+    - Resources:
+      - project-management/resources/index.md
 
 theme:
   name: material
@@ -22,6 +32,10 @@ theme:
     - navigation.path
     - navigation.top
     - navigation.footer
+    - navigation.indexes
+    - navigation.sections
+    - navigation.tracking
+    - toc.follow
   
 copyright: Copyright © 2024 Mokka Studios S.r.l. All rights reserved.
 
@@ -39,11 +53,17 @@ plugins:
         - blog/category/*
       enable_creation_date: true
       type: timeago
-  - git-committers:
-      # enabled: !ENV [CI, false]
-      repository: mokkastudios/mokkastudios-docs
-      branch: master
-  - social:
-      cards_layout_options:
-        background_color: black
-        color: "#ffffff"
+  # - git-committers:
+  #     repository: mokkastudios/mokkastudios-docs
+  #     branch: master
+  # - social:
+  #     cards_layout_options:
+  #       background_color: black
+  #       color: "#ffffff"
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
