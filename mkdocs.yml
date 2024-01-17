@@ -36,6 +36,7 @@ theme:
     - navigation.sections
     - navigation.tracking
     - toc.follow
+    - content.tooltips
   
 copyright: Copyright © 2024 Mokka Studios S.r.l. All rights reserved.
 
@@ -67,3 +68,15 @@ markdown_extensions:
   - pymdownx.superfences
   - admonition
   - pymdownx.details
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink_title: Anchor link to this section for reference
+      permalink: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
