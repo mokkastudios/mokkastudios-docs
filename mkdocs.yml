@@ -10,6 +10,8 @@ nav:
       - Linear: project-management/project-initialization/linear.md
       - Slack: project-management/project-initialization/slack.md
       - Google Drive: project-management/project-initialization/drive.md
+      - Google Calendar: project-management/project-initialization/calendar.md
+      - Figma: project-management/project-initialization/figma.md
       - Github: project-management/project-initialization/github.md
       - Stores: project-management/project-initialization/stores.md
     - Resources:

@@ -1,0 +1,3 @@
+- secrets
+- resources
+- some other docs
