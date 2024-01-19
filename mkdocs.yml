@@ -14,8 +14,10 @@ nav:
       - Figma: project-management/project-initialization/figma.md
       - Github: project-management/project-initialization/github.md
       - Stores: project-management/project-initialization/stores.md
-    - Resources:
-      - project-management/resources/index.md
+    - Other:
+      - project-management/other/index.md
+      - Resources: project-management/other/resources.md
+      - Credentials: project-management/other/credentials.md
 
 theme:
   name: material
@@ -26,7 +28,7 @@ theme:
   palette:
 
     - media: "(prefers-color-scheme: dark)"
-      primary: "black"
+      primary: black
       scheme: slate
 
   features:
@@ -39,6 +41,7 @@ theme:
     - navigation.tracking
     - toc.follow
     - content.tooltips
+    - content.code.copy
   
 copyright: Copyright © 2024 Mokka Studios S.r.l. All rights reserved.
 
@@ -82,3 +85,9 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
