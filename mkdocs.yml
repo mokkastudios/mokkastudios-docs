@@ -12,12 +12,15 @@ nav:
       - Google Drive: project-management/project-initialization/drive.md
       - Google Calendar: project-management/project-initialization/calendar.md
       - Figma: project-management/project-initialization/figma.md
-      - Github: project-management/project-initialization/github.md
+      - GitHub: project-management/project-initialization/github.md
       - Stores: project-management/project-initialization/stores.md
+    - Documentation:
+      - GitHub: project-management/documentation/github.md
     - Other:
       - project-management/other/index.md
       - Resources: project-management/other/resources.md
       - Credentials: project-management/other/credentials.md
+      - Emails: project-management/other/emails.md
 
 theme:
   name: material
