@@ -1,6 +1,4 @@
 site_name: Mokka Studios - Documentation
-site_url: https://example.com/
-repo_name: Go to repository
 
 nav:
   - Home: index.md
@@ -21,6 +19,10 @@ nav:
       - Resources: project-management/other/resources.md
       - Credentials: project-management/other/credentials.md
       - Emails: project-management/other/emails.md
+  - TO DO:
+    - TO DO:
+      - TO DO/TO DO/to-do.md
+
 
 theme:
   name: material
@@ -29,7 +31,6 @@ theme:
   font:
     text: Lato
   palette:
-
     - media: "(prefers-color-scheme: dark)"
       primary: black
       scheme: slate
